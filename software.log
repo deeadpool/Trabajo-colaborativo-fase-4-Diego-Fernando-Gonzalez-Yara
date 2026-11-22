@@ -1,0 +1,59 @@
+2026-11-20 02:51:03,157 | INFO     | === INICIO DE LA SIMULACIÓN ===
+2026-11-20 02:51:03,158 | INFO     | Registro de cliente OK
+2026-11-20 02:51:03,158 | DEBUG    | Operación finalizada: Registro de cliente
+2026-11-20 02:51:03,158 | ERROR    | Registro de cliente FALLÓ -> ClienteInvalidoError: No se pudo crear el cliente: Correo inválido: 'luis-correo' | causa: Correo inválido: 'luis-correo'
+2026-11-20 02:51:03,158 | DEBUG    | Operación finalizada: Registro de cliente
+2026-11-20 02:51:03,158 | ERROR    | Registro de cliente FALLÓ -> ClienteInvalidoError: No se pudo crear el cliente: El documento debe tener entre 6 y 12 dígitos | causa: El documento debe tener entre 6 y 12 dígitos
+2026-11-20 02:51:03,158 | DEBUG    | Operación finalizada: Registro de cliente
+2026-11-20 02:51:03,158 | INFO     | Registro de cliente OK
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Registro de cliente
+2026-11-20 02:51:03,159 | INFO     | Creación de ReservaSala OK
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Creación de ReservaSala
+2026-11-20 02:51:03,159 | ERROR    | Creación de AlquilerEquipo FALLÓ -> ServicioInvalidoError: La tarifa por hora debe ser un número positivo
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Creación de AlquilerEquipo
+2026-11-20 02:51:03,159 | INFO     | Creación de AlquilerEquipo OK
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Creación de AlquilerEquipo
+2026-11-20 02:51:03,159 | INFO     | Creación de Asesoria OK
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Creación de Asesoria
+2026-11-20 02:51:03,159 | INFO     | Creación de reserva OK
+2026-11-20 02:51:03,159 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,159 | INFO     | Reserva #9 confirmada
+2026-11-20 02:51:03,160 | INFO     | Confirmación OK
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Confirmación
+2026-11-20 02:51:03,160 | INFO     | Reserva #9 procesada. Total: $321,300.00
+2026-11-20 02:51:03,160 | DEBUG    | Fin del procesamiento de la reserva #9 (estado: Procesada)
+2026-11-20 02:51:03,160 | INFO     | Procesamiento OK
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Procesamiento
+2026-11-20 02:51:03,160 | ERROR    | Creación de reserva FALLÓ -> ReservaInvalidaError: Parámetros de reserva inválidos: Asistentes inválidos (25); capacidad máxima 10 | causa: Asistentes inválidos (25); capacidad máxima 10
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,160 | ERROR    | Creación de reserva FALLÓ -> ReservaInvalidaError: Parámetros de reserva inválidos: Falta el parámetro 'asistentes' para reservar una sala | causa: Falta el parámetro 'asistentes' para reservar una sala
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,160 | INFO     | Creación de reserva OK
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,160 | INFO     | Reserva #12 confirmada
+2026-11-20 02:51:03,160 | INFO     | Confirmación OK
+2026-11-20 02:51:03,160 | DEBUG    | Operación finalizada: Confirmación
+2026-11-20 02:51:03,160 | INFO     | Reserva #12 procesada. Total: $112,455.00
+2026-11-20 02:51:03,160 | DEBUG    | Fin del procesamiento de la reserva #12 (estado: Procesada)
+2026-11-20 02:51:03,161 | INFO     | Procesamiento OK
+2026-11-20 02:51:03,161 | DEBUG    | Operación finalizada: Procesamiento
+2026-11-20 02:51:03,161 | INFO     | Creación de reserva OK
+2026-11-20 02:51:03,161 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,161 | ERROR    | Confirmación FALLÓ -> ServicioNoDisponibleError: 'Arquitectura de Software' no está disponible
+2026-11-20 02:51:03,161 | DEBUG    | Operación finalizada: Confirmación
+2026-11-20 02:51:03,161 | INFO     | Creación de reserva OK
+2026-11-20 02:51:03,161 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,161 | INFO     | Reserva #14 cancelada
+2026-11-20 02:51:03,161 | ERROR    | Confirmación de reserva cancelada FALLÓ -> OperacionNoPermitidaError: No se puede confirmar una reserva Cancelada
+2026-11-20 02:51:03,162 | DEBUG    | Operación finalizada: Confirmación de reserva cancelada
+2026-11-20 02:51:03,162 | INFO     | Creación de reserva OK
+2026-11-20 02:51:03,162 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-20 02:51:03,162 | INFO     | Reserva #15 confirmada
+2026-11-20 02:51:03,162 | INFO     | Confirmación OK
+2026-11-20 02:51:03,162 | DEBUG    | Operación finalizada: Confirmación
+2026-11-20 02:51:03,162 | DEBUG    | Fin del procesamiento de la reserva #15 (estado: Confirmada)
+2026-11-20 02:51:03,162 | ERROR    | Procesamiento FALLÓ -> OperacionNoPermitidaError: No se pudo procesar por un error de cálculo | causa: El descuento debe estar en [0, 1): 1.5
+2026-11-20 02:51:03,162 | DEBUG    | Operación finalizada: Procesamiento
+2026-11-20 02:51:03,162 | ERROR    | Creación de reserva FALLÓ -> ReservaInvalidaError: La reserva requiere un Cliente válido
+2026-11-20 02:51:03,163 | DEBUG    | Operación finalizada: Creación de reserva
+2026-11-22 02:51:03,163 | INFO     | === FIN DE LA SIMULACIÓN: la aplicación siguió estable ===
