@@ -56,4 +56,4 @@
 2026-11-20 02:51:03,162 | DEBUG    | Operación finalizada: Procesamiento
 2026-11-20 02:51:03,162 | ERROR    | Creación de reserva FALLÓ -> ReservaInvalidaError: La reserva requiere un Cliente válido
 2026-11-20 02:51:03,163 | DEBUG    | Operación finalizada: Creación de reserva
-2026-11-22 02:51:03,163 | INFO     | === FIN DE LA SIMULACIÓN: la aplicación siguió estable ===
+2026-11-20 02:51:03,163 | INFO     | === FIN DE LA SIMULACIÓN: la aplicación siguió estable ===
